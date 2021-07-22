@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <title>MDP</title>
+    <link rel="icon" href="img.jpg" type="image/icon type">
+    <link rel="stylesheet" href="detailStyle.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no">
+
+  </head>
+
+  <body>
+
+    <nav>
+      <img src="img.jpg" alt="M" id="img">
+      <label><a class="navName" href="index.html">MDP</a></label>
+    </nav>
+
+    <br/><br/><br/>
+
+    <div class="sM">Search Movies</div>
+
+    <br/><br/><br/>
+
+    <div class="form">
+      <input type="text" name="movieTitle" autocomplete="on" id="title" required />
+      <label for="movieTitle" class="label-name">
+        <span class="content-name">Enter Movie Title<a style="color:red;">*</a></span>
+      </label>
+    </div>
+
+    <br/><br/>
+
+    <div class="form">
+      <input type="text" name="movieTitle" autocomplete="on" id="year" required/>
+      <label for="movieTitle" class="label-name">
+        <span class="content-name">Enter Movie Year</span>
+      </label>
+    </div>
+
+    <br/>
+
+    <button type="button" id="submit">Search</button>
+
+    <br/>
+
+    <div>
+      <table class="table">
+        <tbody id="infoTable"></tbody>
+      </table>
+    </div>
+
+    <br/>
+
+
+
+    <div class="container">
+        <div id="movies" class="row"></div>
+    </div>
+
+    <br/><br/><br/><br/><br/><br/><br/>
+
+    <footer class="footer">
+      <p><h1>ABOUT: </h1>This website is created for college's major project</p>
+      <center><p>© Copyright 2020, All Rights Reserved</p></center>
+    </footer>
+
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>

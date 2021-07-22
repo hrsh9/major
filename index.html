@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MDP</title>
+    <link rel="icon" href="img.jpg" type="image/icon type">
+</head>
+<body>
+
+    <header>
+        <div><a id="title" href="index.html"><img src="img.jpg" alt="M" id="img">MDP</a></div>
+        <div><a id="detail" href="detail.html">Detail</a></div>
+        <div id="pos">
+            <form  id="form">
+                <input type="text" placeholder="Search" id="search" class="search">
+            </form>
+        </div>
+    </header>
+    <div id="tags"></div>
+    <div id="myNav" class="overlay">
+
+        <!-- To close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content" id="overlay-content"></div>
+
+        <a href="javascript:void(0)" class="arrow left-arrow" id="left-arrow">&#8656;</a>
+
+        <a href="javascript:void(0)" class="arrow right-arrow" id="right-arrow" >&#8658;</a>
+
+      </div>
+    <main id="main"></main>
+    <div class="pagination">
+        <div class="page" id="prev">Previous Page</div>
+        <div class="current" id="current">1</div>
+        <div class="page" id="next">Next Page</div>
+
+    </div>
+
+    <footer class="footer">
+        <p><h1>ABOUT: </h1>This website is created for college's major project</p>
+        <center><p>© Copyright 2020, All Rights Reserved</p></center>
+      </footer>
+  
+
+    <script src="script.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
